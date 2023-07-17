@@ -1,0 +1,50 @@
+.login_page{ 
+    background-image: url('https://images.pexels.com/photos/733853/pexels-photo-733853.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    height:100vh
+}
+.register_page{
+    background-image: url('https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+    height:100vh;
+}
+
+
+.imagecarousel{
+    width:100%;
+    height:600px;
+    object-fit: cover;
+    object-position: 5px 30%;
+}
+
+.fa-gear{
+    animation: mymove 5s infinite linear ;
+    
+}
+.fa-gear:hover{
+
+    scale: 1.5;
+    color:darkorange
+    
+}
+
+.gear:hover > .fa-gear{
+    scale: 1.5;
+    color:darkorange
+    
+}
+
+
+
+
+@keyframes mymove {
+  50% {transform: rotate(180deg);}
+  100% {transform: rotate(360deg);}
+
+}
